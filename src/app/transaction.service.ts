@@ -9,7 +9,7 @@ import { Transaction } from './transaction.model';
 export class TransactionService {
 
   private readonly accessToken = localStorage.getItem('access_token');
-  private baseURL = "http://localhost:8082/api/records";
+  private baseURL = "http://intrabtc.in:8082/api/records";
 
   constructor(private httpClient: HttpClient) { }
 

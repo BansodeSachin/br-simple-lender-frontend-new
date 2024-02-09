@@ -9,7 +9,7 @@ import { Employee } from './employee';
 export class EmployeeService { 
 
   private readonly accessToken = localStorage.getItem('access_token');
-  private baseURL = "http://localhost:8082/api/customers";
+  private baseURL = "http://intrabtc.in:8082/api/customers";
 
   constructor(private httpClient: HttpClient) { }
 

@@ -9,7 +9,7 @@ import { Record } from './record.model';
 export class RecordService {
 
   private readonly accessToken = localStorage.getItem('access_token');
-  private baseURL = "http://localhost:8082/api/borrowers";
+  private baseURL = "http://intrabtc.in:8082/api/borrowers";
 
   constructor(private httpClient: HttpClient) { }
 
